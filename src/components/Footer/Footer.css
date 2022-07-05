@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+}
+.footer-icons {
+    align-items: center;
+    display: flex;
+    font-size: 1.3rem;
+    gap: 20px;
+    justify-content: center;
+}
+.fb{
+    color: #3b5998;
+}
+.inst{
+    color: #ff0000;
+}
+.yt{
+    color: #ff0000;
+}
+.footer-icons a{
+    text-decoration: none;
+}
+.twit{
+    color: #1da1f2;
+}
+.git{
+    color: #000;
+}

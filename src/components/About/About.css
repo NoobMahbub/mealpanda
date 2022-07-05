@@ -1,0 +1,22 @@
+.about{
+    width: 50%;
+    background-color: var(--bg-color);
+    box-shadow: var(--box-shadow);
+    padding: 70px;
+    margin: 15rem auto;
+    border-radius: .5rem;
+}
+
+.about p{
+    font-weight: 500;
+    line-height: 25px;
+    text-align: start;
+}
+
+@media screen and (max-width: 490px) {
+    .about{
+        width: 70%;
+        padding: 30px;
+        margin: 8rem auto;
+    }
+}

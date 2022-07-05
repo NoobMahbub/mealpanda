@@ -1,0 +1,23 @@
+.container h2 {
+    margin: 50px;
+    font-size: 30px;
+}
+
+
+.container input {
+    width: 60%;
+    padding: 1rem;
+    margin: 20px 50px;
+    border: 0;
+    outline: 0;
+    box-shadow: var(--box-shadow-inset);
+    background-color: var(--bg-color);
+    color: var(--white);
+    border-radius: .5rem;
+    font-weight: 700;
+}
+
+*::-webkit-input-placeholder {
+    font-size: 1rem;
+    color: rgb(63, 63, 63);
+}

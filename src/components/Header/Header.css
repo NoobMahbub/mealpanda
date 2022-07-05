@@ -1,0 +1,12 @@
+.navbar-light .navbar-brand {
+    color: #d70f64!important;
+
+}
+.nav-container{
+    box-shadow: var(--box-shadow);
+    font-weight: 600;
+    
+}
+.logo{
+    border-block-end: none!important;
+}
