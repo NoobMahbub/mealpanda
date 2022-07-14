@@ -18,13 +18,13 @@ const Home = () => {
         <div className='home'>
 
             <div>
-                <h2 className='align-middle d-flex justify-content-center align-items-center mb-5 mt-5'>
+                <h3 className='align-middle d-flex justify-content-center align-items-center mb-5 mt-5'>
                     <div>Welcome to </div>
                     <div className='ms-2 fw-bold mt-2'>
                         <animated.div style={props}> MealPanda <SiFoodpanda color='d70f64' size={40} /> </animated.div>
 
                     </div>
-                </h2>
+                </h3>
                 <CustomLink to="/meals">
                     <button className='explore-btn'>
                         Explore Meals
